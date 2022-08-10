@@ -109,5 +109,11 @@ add foreign key (location_id) references LOCATION (location_id);
 SELECT * FROM ticket ;
 
 
+ALTER TABLE LOCATION 
+RENAME TO location_ ;
+
+SELECT * FROM location_;
+
+
 
 
